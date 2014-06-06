@@ -1,0 +1,6 @@
+{
+    "db": "mongodb://localhost/servant-dev",
+    "app": {
+        "name": "Servant - Development"
+    }
+}

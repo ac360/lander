@@ -1,0 +1,13 @@
+extends layouts/home_layout
+
+block content
+	section.content(id="home-page")
+		section.container-fluid(ng-controller="HomeController")
+			.row
+				.col-md-12
+					h1.st-centered Landing Page
+					p.st-centered A Simple Landing Page For Your Servant Content!
+					p.st-centered(style="margin-top:20px;")
+						a.btn-primary.btn-lg.st-font(href="http://www.servant.co/oauth2/authorize?response_type=code&client_id=xN6qoGnIlVCr8Kcu&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth%2Fservant%2Fcallback") Connect Servant
+
+

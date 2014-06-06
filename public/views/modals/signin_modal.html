@@ -1,0 +1,26 @@
+<div class="modal-content-container">
+	<form class="form signin-form" ng-submit="signIn()">
+		<p class="st-centered st-no-margin">
+			<img id="logo" ng-src="img/logo.png" draggable="false">
+		</p>
+		<h5 class="st-centered st-font tagline st-no-margin">Welcome Back Master</h5>
+		<div class="alert alert-danger st-centered" ng-show="signin_error">
+			{{ signin_error }}
+		</div>
+		<div class="form-group">
+			<input class="form-control email-input input-lg st-centered" type="text" name="username" placeholder="Username" ng-model="user.username">
+		</div>
+		<div class="form-group">
+			<input class="form-control password-input input-lg st-centered" type="password" name="password" placeholder="Password" ng-model="user.password">
+		</div>
+		<div class="form-actions st-centered" style="padding-top:0px;">
+			<button class="btn btn-primary btn-lg" type="submit">Sign In</button>
+		</div>
+		<div class="form-actions st-centered" style="padding-top:10px;">
+			<span class="st-link" ng-click="close()">Cancel</span>
+		</div>
+		<p class="st-centered" style="font-size:10px;margin-top:10px;margin-bottom:0px;">
+			By using this Website and its Services<br/> you agree to its <a ui-sref="tos" class="ca-color">Terms of Service</a>
+		</p>
+	</form>
+</div>

@@ -1,0 +1,22 @@
+<p class="close-container">
+	<button type="button" class="close" data-dismiss="modal" aria-hidden="true" style="font-size:25px;" ng-click="close()">&times;</button>
+</p>
+
+<div class="modal-content-container">
+	<div class="status-container">
+		
+		<!-- <p class="st-centered">
+			<i class="fa fa-exclamation-triangle" style="font-size:30px;color:rgba(0,0,0,0.4);opacity:0.2"></i>
+		</p> -->
+
+		<h3 class="st-centered st-font st-red" style="letter-spacing:-2px;margin-top:8px;">Whoops!</h3>
+
+		<p class="st-centered st-font" style="max-width:90%;margin:0px auto;line-height:20px;letter-spacing:-1px">
+			{{ message }}
+		</p>
+
+		<p class="st-centered" style="margin-top:20px">
+			<button class="btn btn-primary btn-lg" ng-click="close()">Close</button>
+		</p>
+	</div>
+</div> <!-- modal-content-container -->

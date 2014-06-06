@@ -1,0 +1,35 @@
+<section data-ng-controller="IndexController">
+	<div class="row" style="margin:10px 0px 10px 0px;">
+		<div class="col-md-12 st-centered">
+			<img id="logo" src="img/logo_splash.png" draggable="false">
+		</div>
+	</div>
+	<div class="row">
+		<div id="signup-form-container" class="st-centered">
+			<div class="row">
+				<div class="col-md-12">
+					<form class="form" action="/users/signup" method="post">
+						<div class="form-group">
+							<input type="text" class="form-control" name="name" placeholder="Full Name" value="">
+						</div>
+						<div class="form-group">
+							<input type="text" class="form-control" name="username" placeholder="Username" value="">
+						</div>
+						<div class="form-group">
+							<input id="email" class="form-control" type="email" name="email" placeholder="Email" value="">
+						</div>
+						<div class="form-group">
+							<input type="password" class="form-control" name="password" placeholder="Password" value="">
+						</div>
+						<div class="form-actions st-centered" style="padding-top:10px;">
+							<button class="btn btn-danger btn-lg tk-freight-sans-pro" type="submit">Get A Servant</button><br/>
+							<a class="btn btn-black btn-sm" href="/signin" style="margin-top:10px;">Login</a>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+</section>
