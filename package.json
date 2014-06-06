@@ -1,12 +1,12 @@
 {
-  "name": "showcase",
-  "description": "Showcase",
+  "name": "servant lander",
+  "description": "Lander",
   "version": "1.0.0",
   "private": false,
   "author": "Servant",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ac360/showcase.git"
+    "url": "https://github.com/ac360/lander.git"
   },
   "engines": {
     "node": "0.10.x",

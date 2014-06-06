@@ -1,5 +1,5 @@
 {
-  "name": "Servant",
+  "name": "Servant-lander",
   "version": "1.0.0",
   "dependencies": {
     "bootstrap": "3.1.1",
@@ -11,7 +11,6 @@
     "angular-ui-router": "latest",
     "font-awesome": "4.1.0",
     "angular-ui-bootstrap": "0.11.0",
-    "angular-bootstrap": "~0.11.0",
-    "angular-local-storage": "~0.0.5"
+    "angular-bootstrap": "~0.11.0"
   }
 }
