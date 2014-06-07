@@ -21,9 +21,6 @@ var smartdept = function(req, res, next) {
 	} else {
 	    next(); 
 	};
-
-	res.redirect('/sdpt/wetmonkey/#!/');
-
 };
 
 var wetmonkey = function(req, res, next) {

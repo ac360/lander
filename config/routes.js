@@ -9,5 +9,5 @@ module.exports = function(app, passport, auth) {
     app.get('/sdpt/wetmonkey',                       application.wetmonkey); // Handle Old SmartDepartment Sites
     app.get('/auth/servant/callback',                application.callback);
     app.get('/s',                                    application.stage);
-    app.get('/',                                     application.home);
+    app.get('/',                                     application.smartdept, application.home);
 };
