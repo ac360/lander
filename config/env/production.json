@@ -1,5 +1,5 @@
 {
-    "db": "",
+    "db": "mongodb://heroku_app26102901:slihvo72mdke0agqe2ani7fh6n@ds043477.mongolab.com:43477/heroku_app26102901",
     "app": {
         "name": "Servant Lander"
     }
