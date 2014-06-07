@@ -16,13 +16,11 @@ var smartdept = function(req, res, next) {
 
 	console.log(hostname);
 
-	// TO DO - When there are more sdpt sites, process host name here and redirect...
-
- // if (hostname == "wetmonkey.smartdepartment.net") {
- // 	res.send("this is sub1 response!");
- // } else if(hostname == "sub2.domain.com") {
- //    	res.send("this is sub2 response!");
- // };
+	if (hostname.indexOf('smart') > 0) {
+	 	res.redirect('/sdpt/wetmonkey/#!/');
+	} else {
+	    next(); 
+	};
 
 	res.redirect('/sdpt/wetmonkey/#!/');
 
